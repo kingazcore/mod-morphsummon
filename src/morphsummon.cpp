@@ -258,13 +258,16 @@ private:
         bool sorry = false;
 
         // Mage Pet (minion)
-        if (Minion* minion = player->GetFirstMinion())
+        if (player->getClass() == CLASS_MAGE)
         {
-            if (minion->GetUInt32Value(UNIT_CREATED_BY_SPELL) == SUMMON_WATER_ELEMENTAL)
+            if (Minion* minion = player->GetFirstMinion())
             {
-                if (!mage_water_elemental.empty())
+                if (minion->GetUInt32Value(UNIT_CREATED_BY_SPELL) == SUMMON_WATER_ELEMENTAL)
                 {
-                    AddGossipItemFor(player, MORPH_GOSSIP_MENU_HELLO, MORPH_GOSSIP_OPTION_POLYMORPH, GOSSIP_SENDER_MAIN, MORPH_PAGE_START_MAGE_WATER_ELEMENTAL);
+                    if (!mage_water_elemental.empty())
+                    {
+                        AddGossipItemFor(player, MORPH_GOSSIP_MENU_HELLO, MORPH_GOSSIP_OPTION_POLYMORPH, GOSSIP_SENDER_MAIN, MORPH_PAGE_START_MAGE_WATER_ELEMENTAL);
+                    }
                 }
             }
         }
