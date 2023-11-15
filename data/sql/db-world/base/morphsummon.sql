@@ -1,7 +1,7 @@
 SET @ENTRY           := 601072;
 SET @MODELID         := 15665;
-SET @NAME            := 'Cet Keres';
-SET @SUBNAME         := 'Polymorphologist';
+SET @NAME            := '宠物易容';
+SET @SUBNAME         := '术士/死骑/法师宝宝易容';
 SET @SCRIPTNAME      := 'npc_morphsummon';
 SET @NPC_TEXT_HELLO  := @ENTRY;
 SET @NPC_TEXT_SORRY  := @NPC_TEXT_HELLO + 1;
@@ -20,17 +20,17 @@ INSERT INTO `creature_template_movement` (`CreatureId`, `Ground`, `Swim`, `Fligh
 
 DELETE FROM `npc_text` WHERE `ID` IN (@NPC_TEXT_HELLO, @NPC_TEXT_SORRY, @NPC_TEXT_CHOICE);
 INSERT INTO `npc_text` (`ID`, `text0_0`) VALUES
-(@NPC_TEXT_HELLO, 'Greetings, $N. If you are looking for ways to change the appearance of your summoned creature, I can help you.'),
-(@NPC_TEXT_SORRY, 'Greetings, $N. I am sorry, but you don''t have a summoned creature that I can polymorph.'),
-(@NPC_TEXT_CHOICE, 'Please make your choice:');
+(@NPC_TEXT_HELLO, '向你问候，$N。如果你正在寻找改变你召唤生物外观的方法，我可以帮助你。'),
+(@NPC_TEXT_SORRY, '向你问候，$N。非常抱歉，你没有一个我可以变形的召唤生物。'),
+(@NPC_TEXT_CHOICE, '请选择:');
 
 DELETE FROM `gossip_menu_option` WHERE `MenuID` IN (@MENU_HELLO, @MENU_SORRY, @MENU_CHOICE);
 INSERT INTO `gossip_menu_option` (`MenuID`, `OptionID`, `OptionIcon`, `OptionText`, `OptionBroadcastTextID`, `OptionType`, `OptionNpcFlag`, `ActionMenuID`, `ActionPoiID`, `BoxCoded`, `BoxMoney`, `BoxText`, `BoxBroadcastTextID`, `VerifiedBuild`) VALUES
-(@MENU_HELLO, 0, 0, 'Choose polymorph', 0, 0, 0, 0, 0, 0, 0, '', 0, 0),
-(@MENU_HELLO, 1, 0, 'Choose Felguard weapon', 0, 0, 0, 0, 0, 0, 0, '', 0, 0),
-(@MENU_SORRY, 0, 0, 'Ah,  nevermind.', 0, 0, 0, 0, 0, 0, 0, '', 0, 0),
-(@MENU_CHOICE, 0, 0, 'Back..', 0, 0, 0, 0, 0, 0, 0, '', 0, 0),
-(@MENU_CHOICE, 1, 4, 'Next..', 0, 0, 0, 0, 0, 0, 0, '', 0, 0),
-(@MENU_CHOICE, 2, 4, 'Previous..', 0, 0, 0, 0, 0, 0, 0, '', 0, 0);
+(@MENU_HELLO, 0, 0, '选择宠物变形', 0, 0, 0, 0, 0, 0, 0, '', 0, 0),
+(@MENU_HELLO, 1, 0, '选择恶魔卫士的武器', 0, 0, 0, 0, 0, 0, 0, '', 0, 0),
+(@MENU_SORRY, 0, 0, '啊哈，没关系', 0, 0, 0, 0, 0, 0, 0, '', 0, 0),
+(@MENU_CHOICE, 0, 0, '返回', 0, 0, 0, 0, 0, 0, 0, '', 0, 0),
+(@MENU_CHOICE, 1, 4, '下一页', 0, 0, 0, 0, 0, 0, 0, '', 0, 0),
+(@MENU_CHOICE, 2, 4, '上一页', 0, 0, 0, 0, 0, 0, 0, '', 0, 0);
 
 UPDATE `creature_template` SET `npcflag`=1 WHERE `entry`=601072;

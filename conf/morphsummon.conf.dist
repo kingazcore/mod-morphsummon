@@ -10,23 +10,23 @@ MorphSummon.Announce = 0
 
 # Model IDs for the summoned permanent creatures
 
-MorphSummon.Warlock.Imp = "Imp Black,4449,Imp Jade,7552,Imp Red,10811,Outland Imp Red,16888,Outland Imp Purple,16889,Outland Imp Yellow,16890,Outland Imp White,16891"
+MorphSummon.Warlock.Imp = "黑色小鬼,4449,翡翠小鬼,7552,红色小鬼,10811,外域小鬼（红色）,16888,外域小鬼（紫色）,16889,外域小鬼（黄色）,16890,外域小鬼（白色）,16891"
 
-MorphSummon.Warlock.Voidwalker = "Voidwalker,1132,Outland Voidwalker Blue / Green Armor,16634,Outland Voidwalker Blue / Purple Armor,17081,Outland Voidwalker Blue / Blue Armor,17298,Outland Voidwalker Blue / Red Armor,18366,Outland Voidwalker Purple / Blue Armor,18953,Voidcaller Blue,17704,Voidcaller Purple,17746,Voidcaller Red,19884,Voidlord Purple / Purple Armor,16635,Voidlord Blue / Red Armor,18170,Voidlord Purple / Red Armor,18958,Voidlord Purple / Blue Armor,19883,Voidlord Red / Blue Armor,26214,Voidwraith Purple,18050,Voidwraith Blue,18069,Voidwraith Red,18919"
+MorphSummon.Warlock.Voidwalker = "虚空行者,1132,外域虚空行者 蓝/绿护甲,16634,外域虚空行者 蓝/紫护甲,17081,外域虚空行者 蓝/蓝护甲,17298,外域虚空行者 蓝/红护甲,18366,外域虚空行者 紫/蓝护甲,18953,虚空召唤者 蓝色,17704,虚空召唤者 紫色,17746,虚空召唤者 红色,19884,虚空领主 紫色/紫色护甲,16635,虚空领主 蓝色/红色护甲,18170,虚空领主 紫色/红色护甲,18958,虚空领主 紫色/蓝色护甲,19883,虚空领主 红色/蓝色护甲,26214,虚空怨灵 紫色,18050,虚空怨灵 蓝色,18069,虚空怨灵 红色,18919"
 
-MorphSummon.Warlock.Succubus = "Succubus,4162,Succubus Magenta,159,Succubus Blue,2737,Succubus Red,10925"
+MorphSummon.Warlock.Succubus = "魅魔,4162,魅魔品红,159,魅魔蓝,2737,魅魔红,10925"
 
-MorphSummon.Warlock.Felhunter = "Felhound,850,Magehunter Blue,24906,Magehunter Green,24907,Magehunter Red,24908,Hound Blue,3916,Hound Gray,6195,Hound Purple,7890,Hound Red,8180,Hound White,14312,Zergling,10993"
+MorphSummon.Warlock.Felhunter = "地狱犬,850,法师猎手蓝,24906,法师猎手绿,24907,法师猎手红,24908,猎犬蓝,3916,猎犬灰,6195,猎犬紫,7890,猎犬红,8180,猎犬白,14312,寄生虫幼体,10993"
 
-MorphSummon.Warlock.Felguard = "Felguard Black,14255,Felguard Blue,5048,Felguard Yellow,5049,Felguard Red,18342,Felguard White,19901"
+MorphSummon.Warlock.Felguard = "黑暗守卫黑,14255,黑暗守卫蓝,5048,黑暗守卫黄,5049,黑暗守卫红,18342,黑暗守卫白,19901"
 
-MorphSummon.DeathKnight.Ghoul = "Northrend Ghoul White,24992,Northrend Ghoul Blue,24993,Northrend Ghoul Black,24994,Northrend Ghoul Red,24995,Ghoul Grey,137,Ghoul Red,414,Ghoul White,519,Ghoul Blue,547,Zombie Black (One-Armed),1196,Zombie Green (One-Armed),1197,Zombie Sea Green (One-Armed),1198,Zombie Black (Arrows),1200,Zombie Green (Arrows),1201,Zombie Sea Green (Arrows),1202,Zombie Sea Green (Sword),24707,Skeleton (Helmet),158,Skeleton Green (Helmet),201,Skeleton Dark Teal (Helmet),535,Skeleton White,7550,Skeleton Yellow,7555,Skeleton Blue,9783,Skeleton Red,9784,Skeleton Green,9785,Skeleton Black,9786,Skeleton (No Helmet),27355,Skeleton Dark Teal (No Helmet),27356,Skeleton Green (No Helmet),27357"
+MorphSummon.DeathKnight.Ghoul = "诺森德食尸鬼白,24992,诺森德食尸鬼蓝,24993,诺森德食尸鬼黑,24994,诺森德食尸鬼红,24995,食尸鬼灰,137,食尸鬼红,414,食尸鬼白,519,食尸鬼蓝,547,僵尸黑（单臂）,1196,僵尸绿（单臂）,1197,僵尸海绿（单臂）,1198,僵尸黑（箭头）,1200,僵尸绿（箭头）,1201,僵尸海绿（箭头）,1202,僵尸海绿（剑）,24707,骷髅（头盔）,158,绿色骷髅（头盔）,201,深青色骷髅（头盔）,535,骷髅白,7550,骷髅黄,7555,骷髅蓝,9783,骷髅红,9784,骷髅绿,9785,骷髅黑,9786,骷髅（无头盔）,27355,深青色骷髅（无头盔）,27356,绿色骷髅（无头盔）,27357"
 
-MorphSummon.Mage.WaterElemental = "Water Elemental,525,Water Elemental Green,4907,Water Elemental Red,17045,Water Elemental Purple,27029"
+MorphSummon.Mage.WaterElemental = "水元素,525,绿色水元素,4907,红色水元素,17045,紫色水元素,27029"
 
 # List with alternative item IDs for the Felguard weapon
 
-MorphSummon.Warlock.Felguard.Weapon = "Axe (Default),22199,Sword 1,1899,Sword 2,10613,Sword 3,10614,Sword 4,12889,Sword 5,12902,Sword 6,13504,Mace 1,2809,Mace 2,5491,Mace 3,12950,Mace 4,30670,Axe 1,5287,Axe 2,14643,Axe 3,14870,Polearm 1,28365"
+MorphSummon.Warlock.Felguard.Weapon = "斧头（默认）,22199,剑 1,1899,剑 2,10613,剑 3,10614,剑 4,12889,剑 5,12902,剑 6,13504,狼牙棒 1,2809,狼牙棒 2,5491,狼牙棒 3,12950,狼牙棒 4,30670,斧头 1,5287,斧头 2,14643,斧头 3,14870,长柄武器 1,28365"
 
 # List with visual effect spells; the polymorph NPC will randomly choose one to cast after waiting between "minTimeVisualEffect" and "maxTimeVisualEffect" (values in milliseconds)
 
